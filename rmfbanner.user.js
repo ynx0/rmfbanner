@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rmfbanner
 // @namespace    https://github.com/ThePhantomGamer/rmfbanner/
-// @version      0.1
+// @version      0.2
 // @description  Removes the "Join Facebook" Banner
 // @author       Yaseen S.
 // @match        https://www.facebook.com/*
@@ -12,10 +12,17 @@
 (function() {
     'use strict';
     
-    console.log('rmfbanner: removing banner');
+    var d = new Date();
+    var h = Date.getHours();
+    var m = Date.getMinutes();
+    var s = Date.getSeconds();
+    
+    console.log(h + ":" + m + ":" + s 'rmfbanner: removing banner');
+    // This is the element that has the banner
     var annoyingBanner = document.getElementById('pagelet_growth_expanding_cta');
+    // This just deletes any content inside
     annoyingBanner.innerHTML = '';
-    console.log('rmfbanner: finished');
+    console.log(h + ":" + m + ":" + s 'rmfbanner: finished');
     
     }
 )();
