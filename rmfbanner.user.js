@@ -5,6 +5,7 @@
 // @description  Removes the "Join Facebook" Banner
 // @author       Yaseen S.
 // @match        https://www.facebook.com/*
+// @match        http://www.facebook.com/*
 // @grant        none
 // ==/UserScript==
 
