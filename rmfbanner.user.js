@@ -17,12 +17,12 @@
     var m = Date.getMinutes();
     var s = Date.getSeconds();
     
-    console.log(h + ":" + m + ":" + s 'rmfbanner: removing banner');
+    console.log(h + ":" + m + ":" + s + 'rmfbanner: removing banner');
     // This is the element that has the banner
     var annoyingBanner = document.getElementById('pagelet_growth_expanding_cta');
     // This just deletes any content inside
     annoyingBanner.innerHTML = '';
-    console.log(h + ":" + m + ":" + s 'rmfbanner: finished');
+    console.log(h + ":" + m + ":" + s + 'rmfbanner: finished');
     
     }
 )();
