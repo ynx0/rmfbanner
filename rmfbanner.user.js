@@ -13,9 +13,9 @@
     'use strict';
     
     var d = new Date();
-    var h = Date.getHours();
-    var m = Date.getMinutes();
-    var s = Date.getSeconds();
+    var h = d.getHours();
+    var m = d.getMinutes();
+    var s = d.getSeconds();
     
     console.log(h + ":" + m + ":" + s + 'rmfbanner: removing banner');
     // This is the element that has the banner
