@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rmfbanner
 // @namespace    https://github.com/ThePhantomGamer/rmfbanner/
-// @version      0.4.2
+// @version      0.4.3
 // @description  Removes the "Join Facebook" Banner
 // @author       Yaseen S./ThePhantomGamer
 // @match        https://www.facebook.com/*
