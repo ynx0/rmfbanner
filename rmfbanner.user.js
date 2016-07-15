@@ -12,11 +12,14 @@
 (function() {
     'use strict';
     
-    console.log('rmfbanner: removing banner');
+    console.log('rmfbanner: removing banners');
     // This is the element that has the banner
-    var annoyingBanner = document.getElementById('pagelet_growth_expanding_cta');
+    var banner1 = document.getElementById('pagelet_growth_expanding_cta');
+    var banner2 = document.getElementById('u_0_3');
+
     // This just deletes any content inside
-    annoyingBanner.innerHTML = '';
+    banner1.innerHTML = '';
+    banner2.innerHTML = '';
     console.log('rmfbanner: finished');
     
     }
