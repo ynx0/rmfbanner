@@ -19,21 +19,18 @@
     var banner_2 = document.getElementById("pagelet_growth_expanding_cta");
     
     var popdialog = document.getElementById("dialog_0");
-          
-    // check if exists
-    if(typeof(banner_1) != 'undefined' && banner_1 !== null){
-        
-        console.log("rmfb: Removing banner type 1");
-        banner_1.innerHTML = "";
-        console.log("rmfb: Successfully removed" + banner_1.id);    
-    }
     
-    if(typeof(banner_2) != 'undefined' && banner_2 !== null){
-        
-        console.log("rmfb: removing banner type 2");
-        banner_2.innerHTML = "";
-        
-    }
+    var popdialog2 = document.getElementsByClassName('_3-8y');
+    
+    var element_arr = [banner_1, banner_2, popdialog, popdialog2]
+    
+    element_arr.forEach(function(element){
+        if(typeof(element) != 'undefined' && banner_1 !== null){
+            console.log('removing: ' + element);
+            element.innerHTML = '';
+        }
+    });
+    
     
     
     
