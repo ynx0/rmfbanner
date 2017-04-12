@@ -24,10 +24,12 @@
     
     var element_arr = [banner_1, banner_2, popdialog, popdialog2]
     
-    window.onload = element_arr.forEach(function(element){
-        if(typeof(element) != 'undefined' && banner_1 !== null){
-            console.log('removing: ' + element);
-            element.innerHTML = '';
+    window.onload = function() {
+        element_arr.forEach(function(element){
+            if(typeof(element) != 'undefined' && banner_1 !== null){
+                console.log('removing: ' + element);
+                element.innerHTML = '';
+            }
         }
     });
     
