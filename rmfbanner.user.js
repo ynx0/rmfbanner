@@ -24,7 +24,7 @@
     
     var element_arr = [banner_1, banner_2, popdialog, popdialog2]
     
-    element_arr.forEach(function(element){
+    window.onload = element_arr.forEach(function(element){
         if(typeof(element) != 'undefined' && banner_1 !== null){
             console.log('removing: ' + element);
             element.innerHTML = '';
